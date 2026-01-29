@@ -1,44 +1,15 @@
-# Personality Portrait Analyzer - Production Requirements
+# Personality Portrait Analyzer - Minimal Production Requirements
 # Python 3.9+ required
 
 # Core Framework
-#streamlit==1.31.0
+streamlit>=1.31.0
 
-# Data Processing - Fixed numpy version to be compatible with pandas 2.1.4
-pandas==2.1.4
-numpy==1.26.4
+# Data Processing
+pandas>=2.2.0
+numpy>=1.26.0
 
 # Visualization
-plotly==5.18.0
+plotly>=5.18.0
 
-# NLP and ML (Optional - for advanced features)
-transformers==4.36.2
-torch==2.1.2
-scikit-learn==1.3.2
-nltk==3.8.1
-
-# Text Processing
-textblob==0.17.1
-
-# Utilities
-python-dateutil==2.8.2
-
-# Export capabilities
-openpyxl==3.1.2
-
-# Logging and monitoring
-python-json-logger==2.0.7
-
-# Optional: Advanced NLP models
-# sentence-transformers==2.2.2
-# spacy==3.7.2
-
-# Optional: PDF generation
-# reportlab==4.0.7
-# weasyprint==60.1
-
-# Development dependencies (for testing)
-# pytest==7.4.3
-# pytest-cov==4.1.0
-# black==23.12.1
-# flake8==7.0.0
+# Utilities (if needed)
+python-dateutil>=2.8.2
