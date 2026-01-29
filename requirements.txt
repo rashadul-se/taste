@@ -2,7 +2,7 @@
 # Python 3.8+ required
 
 # Core Framework
-streamlit==1.31.0
+#streamlit==1.31.0
 
 # Data Processing
 pandas==2.1.4
